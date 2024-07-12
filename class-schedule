@@ -1,0 +1,14 @@
+class_schedule = {
+    "Math": ("9:00am - 10:30am", "Room 101"),
+    "English": ("11:00am - 12:30pm", "Room 102"),
+    "Science": ("1:00pm - 2:30pm", "Room 103")
+}
+
+# To print the schedule, you can loop through the dictionary and print each class and its information
+for class_name, class_info in class_schedule.items():
+    print(class_name + ":", class_info[0], "in", class_info[1])
+This would output:
+
+Math: 9:00am - 10:30am in Room 101
+English: 11:00am - 12:30pm in Room 102
+Science: 1:00pm - 2:30pm in Room 103
